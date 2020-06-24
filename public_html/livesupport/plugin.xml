@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin>
+	<name>LiveSupport</name>
+	<description>LiveSupport</description>
+	<author>Srimax</author>
+	<version>1.1</version>
+	<schedular>
+		<task time="11:00" page="Schduler.aspx" />
+	</schedular>
+</plugin>

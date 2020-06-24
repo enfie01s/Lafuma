@@ -1,0 +1,12 @@
+<?
+define("ISLOCALHN",(isset($_SESSION['aloggedin'])&&$_SESSION['aloggedin']>0?1:0));
+if(isset($_POST['check'])){$_SESSION['localcheck']=hash("sha256",$_POST['check']);}
+$salt="r97y34tpj34t0";
+if(isset($_SESSION['localcheck']))
+{
+	$hash1=hash("sha256",$_SESSION['localcheck']);
+	$hash=hash("sha256",$hash1.$salt);
+}
+$location=!isset($_SESSION['localcheck'])||$hash!="00400c34e79f04501ed87ff3f64eb856a1f0097bfdf5112152d2fb96a0d14518"?"external":"GMK";
+$islocal=ISLOCALHN?1:($location=="external"?0:1);
+?>

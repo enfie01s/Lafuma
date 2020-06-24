@@ -1,0 +1,186 @@
+﻿.editor-label {
+	width: 70px;
+}
+.login_box {
+	width: 320px;
+	padding: 0;
+	border: solid 1px #E1DCDC;
+	border-radius: 5px;
+	margin-top: 20%;
+}
+
+.border {
+	width: 100%;
+	clear: both;
+	height: 1px;
+	border-bottom: solid 1px #E1DCDC;
+}
+.title {
+	font-size: 14px;
+}
+.editor-label, .editor-field {
+	padding-left: 10px;
+	margin: 5px 0 0;
+}
+.setting_box {
+	width: 700px;
+	padding: 0;
+	border: solid 1px #E1DCDC;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+.setting_box .editor-label {
+	width: 160px;
+}
+.right_col {
+	float: right;
+	margin-right: 10px;
+}
+.grid_box {
+	clear: both;
+	margin: 10px 0px;
+	width: 100%;
+}
+.grid {
+	margin: 10px;
+	width: 97.3%;
+	border: solid 1px #C8C4C4;
+	border-radius: 5px;
+}
+.grid thead tr {
+	background-color: #f5f5f5;
+}
+.grid th, .grid td {
+	text-align: left;
+	padding: 10px;
+}
+
+.grid td {
+	border-top: solid 1px #E3C2C2;
+}
+.grid .row {
+	background-color: #f5f5f5;
+}
+#Department {
+	margin: 0;
+}
+
+/* Two side select box */
+.ms2side__div {
+	clear: left;
+	width: 100%;
+	padding: 1px;
+	float: left;
+	background: url('') repeat-x; /* HACK FOR CHROME */
+}
+
+.ms2side__select {
+	float: left;
+}
+
+.ms2side__header {
+	color: #000088;
+	margin: 5px 0;
+	width: 220px;
+	height: 25px;
+}
+
+.ms2side__options, .ms2side__updown {
+	float: left;
+	font-size: 10pt;
+	margin: 25px 0 0;
+	padding: 0 8px;
+	color: black;
+	text-align: center;
+	overflow: hidden;
+}
+
+.ms2side__updown {
+	font-size: 9pt;
+}
+
+.ms2side__options p, .ms2side__updown p {
+	background: url("../images/button.gif") repeat-x scroll 0 0 #0567AD;
+	border: 1px solid #00487A;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	padding: 5px 9px;
+	margin: 5px 0;
+	text-shadow: 1px 1px 0 #00487A;
+}
+.ms2side__options p:hover, .ms2side__updown p:hover {
+	background: url("../images/altbutton.gif") repeat-x scroll 0 0 #2A2A2A;
+	border: 1px solid #272727;
+	text-shadow: 1px 1px 0 #000000;
+}
+
+.ms2side__options p.ms2side_hover, .ms2side__updown p.ms2side_hover {
+	cursor: pointer;
+}
+
+.ms2side__options p.ms2side__hide, .ms2side__updown p.ms2side__hide {
+	cursor: default;
+	color: gray;
+}
+
+.ms2side__div select {
+	width: 220px;
+	float: left;
+	height: 200px;
+}
+
+/* INPUT FOR SEARCH */
+.ms2side__header input {
+	width: 145px;
+}
+
+.ms2side__header input.wait {
+	width: 80px;
+	height: 12px;
+	background: #FFFFFF url(../images/loading.gif) no-repeat center right;
+}
+
+.ms2side__header input.small {
+	width: 50px;
+	height: 12px;
+	margin: 5px 0 0;
+	width: 195px;
+}
+
+
+/* INPUT FOR SELECT SEARCH */
+.ms2side__header select {
+	width: 100px;
+	height: 20px;
+	float: none;
+}
+
+.ms2side__header select.small {
+	width: 178px;
+}
+
+
+/* REMOVE FILTER OPTION FOR SEARCH */
+.ms2side__header a {
+	font-size: 10pt;
+	padding: 0 8px;
+	width: 16px;
+	height: 16px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	border: 0px solid gray;
+	background: transparent url(../images/close.gif) no-repeat center center;
+	margin: 0 0 0 3px;
+}
+
+.ms2side__header a:hover {
+	background-color: #F0F0FF;
+	border-color: gray;
+}
+#searchablems2side__sx{
+	padding: 0 3px;
+}
+
+/* End two side select box */

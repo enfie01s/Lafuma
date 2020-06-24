@@ -1,0 +1,537 @@
+@charset "utf-8";
+/* GLOBAL */
+body {
+	background:#ffffff url(img/admin/back.jpg) repeat-x top left;
+	margin:0;
+	font:70%/180% Arial, Helvetica, sans-serif;
+	color:#555555;
+}
+pre {
+	font-size:14px;
+	background:white;
+	color:black
+}
+div#errorbox {
+	color:red;
+	background:white;
+	border:1px solid red;
+	padding:6px;
+	line-height:16px;
+	margin:10px 0px;
+}
+div#errorbox p {
+	font-weight:bold;
+	margin:2px 0px;
+	font-size:14px;
+}
+table, td, input, textarea, select, li {
+	color:#555555;
+	font:100% Arial, Helvetica, sans-serif;
+}
+table{width:100%;border-collapse:collapse;}
+td{border:1px solid #FFF;}
+.vtop {
+	vertical-align:top;
+}
+form {
+	margin:0px;
+}
+p.submit {
+	text-align:right;
+}
+.hidefromweb{display:none;}
+.formbutton, p.submit input, p.submit a {
+	background: #CD071E;
+	border:1px solid #CD071E;
+	color:#FFFFFF;
+	padding-bottom:2px;
+	padding-top:2px;
+	vertical-align:middle;	
+	-moz-border-radius:8px;	-webkit-border-radius:8px;
+}
+p.submit a {
+	display:inline-block;
+	padding:1px 3px;
+}
+a.formbutton, a:hover.formbutton {
+	text-decoration:none;
+	color:white;
+	border:1px solid #CD071E;
+	padding-bottom:2px;
+	padding-top:2px;
+	-moz-border-radius:8px;	-webkit-border-radius:8px;
+}
+.formfield, .formselect {
+	width:200px;
+}
+.formfieldm {
+	width:100px;
+}
+.formfields,input.calendarDateInput {
+	width:50px;
+}
+.formfield, .formfields, .formselect, .formfieldm, input.calendarDateInput, select.calendarDateInput {
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #bbb;
+}
+.formfield:focus, .formfieldm:focus, .formselect:focus, input.calendarDateInput:focus, select.calendarDateInput:focus {
+	border:1px solid #BBBBBB;
+}
+form table, table.details {
+	border:4px double #bbb;
+}
+form table tr td, table.details tr td {
+	padding:3px;
+	line-height:16px;
+	font-size:103%;
+}
+table.details tr td table {
+	padding:0px;
+	border:none;
+}
+table.details tr td {
+}
+table.details tr.row0 td {
+	background:#eeeeee;
+}
+table.details tr.row1 td {
+	background:#e6e6e6;
+}
+form table tr td {
+	background:#ebebeb;
+}
+form table tr td.head, table.details tr td.head,td.calendarDateInputHead {
+	background:#CD071E;
+	color:white;
+	font-weight:bold;
+}
+form table tr td.head a, table.details tr td.head a,td.calendarDateInputHead a {
+	color:white;
+	text-decoration:underline;
+}
+table.details tr td.subhead,td.calendarDateInputWeekdays {
+	background:#F4F4F4;
+	border-bottom:3px double #d37475;
+	border-top:3px double #d37475;
+}
+.infohead {
+	background:#ffe8e8;
+	font-size:95%;
+	color:#666666;
+}
+.infohead a {
+	color:#666666;
+	text-decoration:underline;
+}
+form table.details tr td dfn {
+	color:#FF6600;
+	font-size:11px;
+	font-style:normal;
+	line-height:13px;
+}
+div.titles {
+	float:left;
+}
+div.links {
+	float:right;
+}
+fieldset {
+	border:0px;
+	margin:1em 0;
+	padding:0;
+}
+legend {
+	clear:both;
+	color:#CD071E;
+	font-size:120%;
+	font-weight:normal;
+	padding:0;
+}
+label span {
+	color:#13689D;
+	font-size:110%;
+	font-weight:bold;
+}
+.tabletitle {
+	color:#CD071E;
+	font-size:120%;
+	font-weight:normal;
+	padding:5px 0;
+}
+a {
+	text-decoration:none;
+	color:#309A95;
+}
+a:hover {
+	color:#555555;
+}
+a img {
+	border:none;
+	vertical-align:middle;
+}
+p, h1, h2, h3, h4, h5, h6 {
+	margin:1em 0;
+}
+.note {
+	font-size:110%;
+}
+.clear {
+	clear:both;
+}
+#outer {
+	width:950px;
+	margin:0 auto;
+	position:relative;
+}
+#inner {
+	position:relative;
+	top:0;left:0;
+	margin:0 auto;
+}
+#header {
+	height:145px;
+	width:100%;
+}
+#logo {
+	position:absolute;
+	left:0px;top:21px;
+	margin:0px;
+	background:#CD071E;
+	width:182px;
+	height:50px;
+}
+#headerinfo{
+	position:absolute;
+	right:0px;top:20px;
+	margin:0;
+	color:#FFF;
+	font-size:1em;
+	text-align:right;
+	line-height:1.5em;
+}
+#headerinfo a{color:#FFF;text-decoration:underline;}
+
+#logo img {
+	margin:0px;
+	border:0px;
+}
+#left, #right {
+	float:left;
+	display:inline;
+}
+#left {
+	width:182px;
+	border: 1px solid #D6D6D6;
+	background:#EEE;
+}
+#right {
+	width:756px;
+	margin-left:10px;
+}
+#bread {
+	color:#777777;
+	line-height:14px;
+	padding:6px 10px;
+	width:98%;
+	position:absolute;
+	top:98px;
+	left:0px
+}
+#bread a {
+	color:#777777;
+}
+#main {
+	display:inline;
+	float:left;
+	width:100%;
+}
+#pagecontent {
+	margin-left:0;
+	margin-top:0.5em;
+	width:100%;
+}
+#main h2, #main h3 {
+	clear:both;
+	color:#999999;
+	font-size:130%;
+	font-weight:normal;
+	padding:0;
+}
+#main h3 {
+	font-size:120%;
+}
+#main h2#pagetitle {
+	background:url(img/main/pagetitle_back.gif) no-repeat scroll 0 0 transparent;
+	color:#CD071E;
+	font-size:150%;
+	font-weight:normal;
+	height:19px;
+	line-height:19px;
+	margin:0;
+	padding:0;
+	width:530px;
+}
+#info {
+	background:none repeat scroll 0 0 #CC4200;
+	color:#FFFFFF;
+	font-size:90%;
+	margin:0;
+	padding:0 20px;
+	position:absolute;
+	right:0;
+	top:0;
+	z-index:10;
+}
+#info a {
+	color:#FFFFFF;
+}
+.orangebold {
+	color:#CD071E;
+	font-size:120%;
+	font-weight:bold;
+}
+.first {
+	width:30%
+}
+.highlight {
+	color:#3ABAB4;
+	font-size:140%;
+	font-weight:bold;
+}
+/* /GLOBAL */
+
+/* SIDE MENU */
+.vert_title {
+	color:#CD071E;
+	font-size:100%;
+	font-weight:bold;
+	line-height:19px;
+	margin:1em 0 0 0;
+	padding:3px 20px;
+	text-transform:uppercase;
+}
+#left ul {
+	color:#777777;
+	margin:0;
+	padding:1px 1px 0;
+	list-style:none outside none;
+}
+#left ul li {
+	color:#555555;
+	display:block;
+	list-style-type:none;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+#left ul li a {
+	border-bottom:1px solid #FFFFFF;
+	color:#555555;
+	display:block;
+	width:100%;
+}
+#left ul li a:hover {
+	background:url(img/main/arrow2.gif) no-repeat scroll 8px 1em #E4E4E4;
+}
+#left ul li a span {
+	display:block;
+	padding:5px 20px;
+}
+/* /SIDE MENU */
+
+/* CALENDAR */
+/* For the details, see: http://flowplayer.org/tools/dateinput/index.html#skinning */
+
+/* the input field */
+/*.date {
+	border:1px solid #ccc;
+	font-size:18px;
+	padding:4px;
+	text-align:center;
+	width:194px;
+}*/
+
+/* calendar root element */
+#calroot {
+	/* place on top of other elements. set a higher value if nessessary */
+	z-index:10000;
+	
+	margin-top:-1px;
+	width:198px;
+	padding:2px;
+	background-color:#fff;
+	font-size:11px;
+	border:1px solid #ccc;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	-moz-box-shadow: 0 0 15px #666;
+	-webkit-box-shadow: 0 0 15px #666;	
+}
+
+/* head. contains title, prev/next month controls and possible month/year selectors */
+#calhead {	
+	padding:2px 0;
+	height:22px;
+} 
+
+#caltitle {
+	font-size:14px;
+	color:#0150D1;	
+	float:left;
+	text-align:center;
+	width:155px;
+	line-height:20px;
+	text-shadow:0 1px 0 #ddd;
+}
+
+#calnext, #calprev {
+	display:block;
+	width:20px;
+	height:20px;
+	background:transparent url(img/calendar/prev.gif) no-repeat scroll center center;
+	float:left;
+	cursor:pointer;
+}
+
+#calnext {
+	background-image:url(img/calendar/next.gif);
+	float:right;
+}
+
+#calprev.caldisabled, #calnext.caldisabled {
+	visibility:hidden;	
+}
+
+/* year/month selector */
+#caltitle select {
+	font-size:10px;	
+}
+
+/* names of the days */
+#caldays {
+	height:14px;
+	border-bottom:1px solid #ddd;
+}
+
+#caldays span {
+	display:block;
+	float:left;
+	width:28px;
+	text-align:center;
+}
+
+/* container for weeks */
+#calweeks {
+	background-color:#fff;
+	margin-top:4px;
+}
+
+/* single week */
+.calweek {
+	clear:left;
+	height:22px;
+}
+
+/* single day */
+.calweek a {
+	display:block;
+	float:left;
+	width:27px;
+	height:20px;
+	text-decoration:none;
+	font-size:11px;
+	margin-left:1px;
+	text-align:center;
+	line-height:20px;
+	color:#666;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px; 		
+} 
+
+/* different states */
+.calweek a:hover, .calfocus {
+	background-color:#ddd;
+}
+
+/* sunday */
+a.calsun {
+	color:red;		
+}
+
+/* offmonth day */
+a.caloff {
+	color:#ccc;		
+}
+
+a.caloff:hover {
+	background-color:rgb(245, 245, 250);		
+}
+
+
+/* unselecteble day */
+a.caldisabled {
+	background-color:#efefef !important;
+	color:#ccc	!important;
+	cursor:default;
+}
+
+/* current day */
+#calcurrent {
+	background-color:#498CE2;
+	color:#fff;
+}
+
+/* today */
+#caltoday {
+	background-color:#333;
+	color:#fff;
+}
+/* /CALENDAR */
+/* PAGES */
+.infohead div.pagination {
+	background:transparent;
+	border:none;
+	float:left;
+	margin:0 0 0 5px;
+	padding:1px 4px;
+}
+.infohead div.paginationshowing {
+	float:right;
+	padding:1px 4px;
+	margin:0 0 5px;
+	border:1px dashed #E1E1E1;
+	margin:0 0 0 5px;
+}
+.infohead div.pagination a {
+}
+.pagination {
+	background:#F1F1F1;
+	border:1px dashed #E1E1E1;
+	float:left;
+	margin:0 0 5px;
+	padding:1px 4px;
+}
+.pagination a {
+	color:#555555;
+}
+.pagination a:hover {
+	color:#555555;
+}
+.pagelinkon {
+	background:#ffd5d5;
+	color:#999999;
+	border:1px solid #f3bbbb;
+	margin:0 2px;
+	padding:0 3px;
+	vertical-align:middle;
+}
+.pagelink {
+	background:#fbbfbf;
+	border:1px solid #d99b9c;
+	margin:0 2px;
+	padding:0 3px;
+	vertical-align:middle;
+}
+/* /PAGES */

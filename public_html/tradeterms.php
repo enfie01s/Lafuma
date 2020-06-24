@@ -1,0 +1,29 @@
+<h2 id="pagetitle">LLC Ltd Trading Terms and Conditions</h2>
+
+<h2>Carriage</h2>
+<p>Carriage will be paid by us on consignments with a trade value of £300 or more for Le Chameau and on orders more than £250 for Lafuma Furniture. Orders under £300 may bear a carriage surcharge of up to £20. These limits are subject to annual change.</p>
+<h2>Domain Names</h2>
+<p>Internet domain names used by the Buyer which includes LLC’s name, the name of any of our products or any names relevant to LLC will be seen as intention of misrepresentation and an infringement of our trading terms and conditions.</p>
+<h2>Delivery</h2>
+<p>We will be entitled to make delivery of goods by instalments and to invoice the Buyer for each instalment despatched.  In the event of a delayed delivery time, unless we receive written cancellation of order, goods will be invoiced as soon as available and the Buyer must stand by the original order. The Customer must advise the Company of any total or partial loss, damage or non delivery of all or any separate part of a consignment within 48 hours of the arrival of the goods at the Customer’s premises. No claim can be considered if the person receiving the goods on behalf of the customer has signed that the consignment is complete and in good condition. In the event of failure by the Buyer to give such notice the Buyers claims will not be valid.  Where goods have been delivered and not ordered, the Buyer must inform the Company within twenty-eight days of delivery.  Goods will not be authorised for return if advised after this period.  No credit is available for special order items where the goods are not faulty. Special order items may be cancelled within 14 days of the initial order being placed, with the agreement in writing of an authorised representative of the Company, thereafter a cancellation charge of up to 50% of the order value will apply.</p>
+<h2>Payment</h2>
+<p>The buyer must pay for the goods no later than the end of month following the month of invoice.  Prompt payment is a condition precedent to future deliveries.  Persistent late payment will result in the permanent withdrawal of credit facilities.</p>
+<h2>Interest on Overdue Invoices</h2>
+<p>Interest at 2% per month will be charged at the discretion of the Company on invoices not settled within the stated payment terms.</p>
+<h2>Prices</h2>
+<p>Prices are subject to alteration without prior notice.  We will be entitled to adjust any prices quoted or appearing in any of our price lists at any time up to the date of despatch and the Buyer will pay for the goods at the price ruling at the date of despatch except where a separate signed pricing agreement is in place between a specified customer and LLC. </p>
+<h2>Property in the Goods and Risk</h2>
+<p>The property in the goods will not pass to the Buyer until the price for the goods has been paid in full and in addition all other sums due to us from the Buyer under any contract have been paid in full. The risk in the goods will pass on delivery to the Buyer.</p>
+<h2>Returns</h2>
+<p>No goods may be returned without the prior consent of LLC Limited.  All goods returned are to be accompanied by a completed LLC Returns Form.  Goods returned without prior agreement may be returned to the Buyer at the Buyers expense and goods returned without prior authorisation may be subject to a 10% handling charge.  Goods returned in a soiled or damaged condition will not be credited in full.  Any goods returned whether for credit or repair must be adequately packed.  The Goods will be tested on receipt. If no fault is found then the Customer will be liable for the carriage charge incurred in returning the goods to LLC. Any repairs attempted by a party other than LLC will invalidate the warranty.   The Customer must accept faulty goods from their own customers where the goods in question had originally been purchased by the Customer from LLC. Retailers must not advise customers to go direct to LLC. Retailers must not make decisions regarding the remedy due to a claimed fault on our product. Goods must be returned to LLC who will decide the appropriate remedy.</p>
+<h2>Premises & Location</h2>
+<p>LLC have a policy of only dealing with customers who have a bona fide retail premises of a “good” standard as determined by our sales team.  We reserve the right not to give full account status to new accounts that are in close geographical proximity to existing retail customers.  This policy can also be applied when an existing customer opens a new branch or moves location.  The “geographical proximity” will also take into account local population densities and will be decided upon by our sales department.  In exceptional circumstances we can waive the above restrictions.  We reserve the right to reverse our decision to give account status during the first year of trading.</p>
+<h2>Selling On</h2>
+<p>LLC act as sole UK distributors for the brands we represent. We therefore reserve the right to withdraw account status from customers who are “actively” re-selling our products to other retail businesses, thereby contravening our premises and location policies.</p>
+<h2>Stocking and Turnover Policies</h2>
+<p>LLC have certain minimum stockholding and turnover threshold, which must be adhered to. Failure to maintain these levels can result in removal from the particular scheme, and it’s benefit, or withdrawal of account status.</p>
+<h2>Variations in Specification</h2>
+<p>No variation by us in the specification or design of the goods shall constitute a breach of contract or impose upon us any liability whatsoever.</p>
+<h2>Law</h2>
+<p>The contract between the supplier and customer shall be subject to English Law and the parties submit to the exclusive jurisdiction of the English Courts.</p>
+<br />We reserve the right to amend these Terms from time to time. 
